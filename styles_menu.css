@@ -1,0 +1,106 @@
+/* CSS Document */
+body
+{
+    /* reset marges navigateur*/
+    
+    background-image: ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    font-family: 'Open Sans', sans-serif; 
+  
+    
+}
+nav
+{
+    /* le menu prend 100% de la pagr*/
+    width:100%;
+    /* coileur de fond du menu*/
+    background-color :#333333;
+   
+}
+
+
+
+nav ul
+{
+    margin:0px;
+    padding:0px;
+    /*eviter ecrasement en le Float et le fixe de nav*/
+    overflow:hidden;
+
+
+}
+
+nav li
+{
+    /*enlever les puces*/
+    list-style-type:none;
+    /* mettre cote a cote - flottant*/
+    float:left;
+
+
+}
+
+nav a 
+{
+    /* creation block affichage*/
+    display:inline-block;
+    /* enlever les soulignements*/
+    text-decoration:none;
+    /*etendre la zone pour cliquer*/
+    padding:20px 30px;
+    color: #FFF;
+
+}
+
+
+/* passage souris / class */
+.menu-presentation:hover
+{
+    border-top: 5px solid #BBB;
+    border-bottom: 5px solid #BBB;
+    Background-color:RGBa(228,77,38,0.15);
+    line-height: 140%;
+   
+}
+/**/
+.menu-competences:hover
+{
+    border-top : 5px solid #BBB;
+    border-bottom: 5px solid #BBB;
+    Background-color:RGBa(228,77,38,0.15);
+   
+}
+/**/
+.menu-portfolio:hover
+{
+    border-top : 5px solid #BBB;
+    border-bottom: 5px solid #BBB;
+    Background-color:RGBa(228,77,38,0.15);
+   
+}
+/**/
+.menu-experiences:hover
+{
+    border-top : 5px solid #BBB;
+    border-bottom: 5px solid #BBB;
+    Background-color:RGBa(228,77,38,0.15);
+   
+}
+/**/
+.menu-contact:hover
+{
+    border-top : 5px solid #BBB;
+    border-bottom: 5px solid #BBB;
+    Background-color:RGBa(228,77,38,0.15);
+
+   
+}
+/* controle de la taille du menu lors du survol*/
+nav li:hover a
+{
+
+    padding:10px 30px 20px 30px;
+}
+/**/

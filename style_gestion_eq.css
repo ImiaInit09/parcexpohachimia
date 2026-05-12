@@ -1,0 +1,74 @@
+
+
+/* Titre  */
+h1 {
+    color: orange;      
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* TABLEAU  */
+th, td {
+    padding-top: 15px;      
+    padding-bottom: 15px;   
+}
+
+
+th {
+    text-align: right;      
+    padding-right: 20px;    
+    font-weight: bold;
+}
+
+
+/*  BOUTONS RADIO  */
+
+.bouton_radio {
+    margin: 50px ;         
+    padding: 15px;
+    text-align: center;
+}
+
+.bouton_radio legend {
+    display: block;        
+    margin-bottom: 20px;    
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.bouton_radio label {
+    margin-right: 90px;     
+}
+
+
+/* BOUTONS D'ACTION */
+
+
+.bouton {
+    margin-top: 50px;       
+    margin-bottom: 50px;
+    display: flex;          
+    justify-content: center;/* Centre le groupe de boutons */
+    gap: 100px;             
+}
+
+
+.bouton_orange {
+    background-color: #F57C00; 
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+   
+}
+
+
+/* --- MENTION BAS DE PAGE --- */
+
+.champ_obligatoire {
+    font-size: 18px;
+    color: red;
+    text-align: left;
+    margin-top: 150px;      
+    font-weight: bold;
+}

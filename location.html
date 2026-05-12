@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <link rel="stylesheet" href="style_location.css">
+  <title>Location</title>
+  </head>
+   <body bgcolor="white">
+
+    <img src="images\logoexpobox.png" alt="Logo ExpoBox" width="10%" >
+
+    <form>
+        
+        <h2><center> RESERVATION EQUIPEMENTS - BOX </center></h2>
+
+        <table>
+            
+            <tr>
+              <th> Box*</th>
+              <td>
+                <input type="text" name="Box" size="20" placeholder="nom du box" >
+                <select id="box" name="nom_box">
+                  <option value="A">box_A</option>
+                  <option value="...">box_...</option>
+                  <option value="Z">box_Z</option>
+                </select>
+              </td>
+              
+              <th> Durée/Jour</th>
+              <td>
+                <select id="duree_box" name="duree_jour_box">
+                  <option value="1"> 1</option>
+                  <option value="2"> 2</option>
+                  <option value="3"> 3</option>
+                  <option value="4"> 4</option>
+                  <option value="5"> 5</option>
+                  <option value="6"> 6</option>
+                  <option value="7"> 7</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <th> Equipement </th>
+              <td>
+                <input type="text" name="Equipement" size="20" placeholder="nom de l'équipement">
+                <select id="equipement" name="nom_eq">
+                  <option value="A"> nom_eq_A</option>
+                  <option value="..."> nom_eq_...</option>
+                  <option value="Z"> nom_eq_Z</option>
+                </select>
+              </td>
+              
+              <th> Durée/Jour</th>
+              <td>
+                <select id="duree_eq" name="duree_jour_eq">
+                  <option value="1"> 1</option>
+                  <option value="2"> 2</option>
+                  <option value="3"> 3</option>
+                  <option value="4"> 4</option>
+                  <option value="5"> 5</option>
+                  <option value="6"> 6</option>
+                  <option value="7"> 7</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <th> Quantité </th>
+              <td><input type="text" name="Quantité" size="20" placeholder="de 1 à 10"></td>
+            </tr>
+
+            <tr>
+              <th> Client*</th>
+              <td><input type="text" name="Client" size="20"></td>
+              <th> Type client: </th>
+            </tr>
+            
+        </table>
+
+        <div>
+          <input type="submit" value="Valider la réservation" class="reservation">
+        </div>
+
+    </form>
+</body>
+</html>
